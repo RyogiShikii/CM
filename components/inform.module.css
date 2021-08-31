@@ -1,0 +1,12 @@
+.informMain {
+    display: block;
+    background-color:rgba(0,125,186,.05);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.informMain a {
+    color: black;
+    font-weight: bold;
+}

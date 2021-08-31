@@ -1,0 +1,45 @@
+.footerContainer {
+    border-top: 2px solid #d2d2d2;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    background-color: rgba(227,227,227,.10);
+}
+
+.footerNavContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.footerNav {
+    width: 10rem;
+}
+
+.footerNav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.footerNav p {
+    padding: 0.3rem 0;
+    margin: 0;
+}
+
+.footerBottom {
+    height: auto;
+    background-color: #212529;
+}
+
+.footerBottomContainer {
+    width: 100%;
+    padding: 1rem;
+}
+
+.footerBottom span, .footerBottom a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
