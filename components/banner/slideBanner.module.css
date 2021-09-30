@@ -1,0 +1,11 @@
+.background {
+    height: 400px;
+    background-image: url('../../public/test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background img {
+    width: 100vw;
+    height: 400px;
+}

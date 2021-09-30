@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Inform from '../components/inform';
-import SlideBanner from '../components/SlideBanner';
+import Inform from '../components/pandemicInfo/Inform';
+import SlideBanner from '../components/banner/SlideBanner';
+import Category from '../components/serviceCategory/Category';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Inform />
       <SlideBanner />
+      <Category />
     </div>
   )
 }
