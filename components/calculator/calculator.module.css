@@ -1,4 +1,61 @@
 .calculator {
-    width: 500px;
+    width: 65%;
+    margin: auto;
+    
+}
+
+.calculatorHeader {
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    padding: 2rem;
+    position: relative;
+    top: -30px;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 15%);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.calculatorDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calculatorSlider {
+    width: 90%;
+    margin: auto;
+}
+
+.calculatorBody {
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    position: relative;
+    top: -30px;
+    padding: 2rem;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 15%);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.bodyTitle {
+    width: 50%;
+    margin: auto;
+    font-size: bold;
+}
+
+.bodyDisplay {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.fee {
+    border-right: 1px solid #979797;
+    width: 100px;
+    margin-right: 2.5rem;
+}
+
+.total {
+    width: 100px;
+}
+
+.bodyDescription {
+    width: 50%;
     margin: auto;
 }
