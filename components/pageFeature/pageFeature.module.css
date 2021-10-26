@@ -1,0 +1,15 @@
+.title {
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.title h2 {
+    font-weight: bold;
+}
+
+.featureItem {
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 10% 1rem 10%;
+}

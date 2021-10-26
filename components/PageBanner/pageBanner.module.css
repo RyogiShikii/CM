@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 10% 2rem 10%;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+
+
+.contentContainer {
+    width: 55%;
+    font-size: 1.8rem;
+    padding: 2rem 0 2rem 5rem;
+}
+
+.contentContainer h1 {
+    font-size: 3rem;
+}
+
+.imageContainer {
+    display: block;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
