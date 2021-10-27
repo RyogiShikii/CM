@@ -1,0 +1,25 @@
+.bannerContent {
+    width: 55%;
+    font-size: 1.8rem;
+    padding: 2rem 0 2rem 5rem;
+}
+
+.bannerContent h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.list {
+    width: 50%;
+    font-size: 1.8rem;
+    padding: 4rem;
+}
+
+.list h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.list p {
+    font-size: 1.2rem;
+}

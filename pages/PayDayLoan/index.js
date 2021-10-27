@@ -1,7 +1,9 @@
 import styles from './index.module.css';
 import PageBanner from '../../components/PageBanner/pageBanner';
+import PageBannerR from '../../components/PageBanner/pageBannerReverse';
 import Inform from '../../components/pandemicInfo/Inform';
 import PageFeature from '../../components/pageFeature/PageFeature';
+import Calculator from '../../components/calculator/Calculator';
 
 
 const PdlPage = () => {
@@ -28,7 +30,8 @@ const PdlPage = () => {
             <Inform />
             <PageBanner
                 title='Pay Day Loan'
-                content='Apply for the loan up to $1500'
+                content={['Apply for the loan up to $1500']}
+                button='Find Store'
                 src='/pdl-page-banner.jpg'
             />
             <PageFeature
@@ -36,6 +39,17 @@ const PdlPage = () => {
                 content='When an unexpected bill or some emergency things happened, pay day loan is an immediate solution for you.'
                 items={items}
             />
+            <PageBannerR
+                title='Check list before your visit'
+                content = {['Be at least 18 years of age with valid ID','Have a chequing account','Have a steady source of income','Have a valid cell phone number']}
+                src='/pdl-page-banner.jpg'
+            />
+            <PageBanner
+                title='Prepare the payment'
+                content={['Prepare the payment by your next pay day','We will give you a reminder call before due date','Plan ahead']}
+                src='/pdl-page-banner.jpg'
+            />
+            <Calculator />
         </div>
     )
 }

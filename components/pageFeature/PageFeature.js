@@ -2,8 +2,8 @@ import styles from './pageFeature.module.css';
 import PageFeatureItem from './PageFeature-Item';
 
 const PageFeature = (props) => {
-    const featureItem = props.items.map(item => {
-        return <PageFeatureItem title={item.title} content={item.content} src={item.src}/>
+    const featureItem = props.items.map((item,i) => {
+        return <PageFeatureItem title={item.title} content={item.content} src={item.src} key={i}/>
     })
     return (
         <div>

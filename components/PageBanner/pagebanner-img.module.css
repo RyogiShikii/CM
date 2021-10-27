@@ -1,0 +1,6 @@
+.bannerImage {
+    display: block;
+    width: 25rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
