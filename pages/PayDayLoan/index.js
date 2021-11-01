@@ -41,13 +41,13 @@ const PdlPage = () => {
             />
             <PageBannerR
                 title='Check list before your visit'
-                content = {['Be at least 18 years of age with valid ID','Have a chequing account','Have a steady source of income','Have a valid cell phone number']}
-                src='/pdl-page-banner.jpg'
+                content = {['Be at least 18 years of age with valid ID','Have a chequing account','Have a steady source of income','*We may ask for more information']}
+                src='/bannerImage/banner1.jpg'
             />
             <PageBanner
                 title='Prepare the payment'
                 content={['Prepare the payment by your next pay day','We will give you a reminder call before due date','Plan ahead']}
-                src='/pdl-page-banner.jpg'
+                src='/bannerImage/banner3.jpg'
             />
             <Calculator />
         </div>
