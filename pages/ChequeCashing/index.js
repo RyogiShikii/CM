@@ -6,8 +6,7 @@ const ccPage = () => {
     return (
         <div>
             <Inform />
-            <h1>Get your money right away!</h1>
-            <Video />
+            <Video src='/trim.mp4' />
         </div>
     )
 }

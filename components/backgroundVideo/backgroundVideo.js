@@ -1,13 +1,17 @@
 import styles from './backgroundVideo.module.css';
 
-const Video = () => {
+const Video = (props) => {
     return (
-        <div>
+        <div className={styles.videoContainer}>
             <video id='backgroundVideo' loop autoPlay muted style={{width:'100%'}}>
-                <source src='/trim.mp4' type="video/mp4" />
-                <source src='/trim.mp4' type="video/ogg" />
+                <source src={props.src} type="video/mp4" />
+                <source src={props.src} type="video/ogg" />
                 Your browser does not support video.
             </video>
+            <div className={styles.videoTitle}>
+                <h1>Get your money now</h1>
+            </div>
+
         </div>
     )
 }
