@@ -9,7 +9,7 @@ const Video = (props) => {
                 Your browser does not support video.
             </video>
             <div className={styles.videoTitle}>
-                <h1>Get your money now</h1>
+                <h1>{props.title}</h1>
             </div>
 
         </div>

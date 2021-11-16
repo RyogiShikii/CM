@@ -6,7 +6,7 @@ const PageFeature = (props) => {
         return <PageFeatureItem title={item.title} content={item.content} src={item.src} key={i}/>
     })
     return (
-        <div>
+        <div className={styles.featureContainer}>
             <div className={styles.title}>
                 <h2>{props.title}</h2>
                 <p>{props.content}</p>
